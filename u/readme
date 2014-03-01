@@ -1,0 +1,14 @@
+Copy directory 'u' to your home directory on the server
+Create a mysql database with a table named 'url' with four fields 
+	1. ID - bigint(12),Primary Key,Auto Icrement
+	2. ACTUAL_URL - varchar(255)
+	3. SHORT_URL - varchar(10)
+	4. TIME - timestamp ,default CURRENT_TIMESTAMP
+Open conn.php in 'u' directory 
+	> store your username in $user
+	> store your password in $pass
+	> store name of database in $db_name
+	> store domain name in $domain
+	> store hostname in $hosst
+
+Load index.php in you browser.
